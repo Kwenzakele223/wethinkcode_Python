@@ -3,7 +3,7 @@ def main():
   print(thoughts(deep_thoughts))
 
 def thoughts(user_input):
-  match user_input:
+  match user_input.strip().lower():
     case "42":
       return "Yes"
     case "forty-two":
@@ -12,5 +12,5 @@ def thoughts(user_input):
       return "Yes"
     case _:
       return "No"
-  
+
 main()

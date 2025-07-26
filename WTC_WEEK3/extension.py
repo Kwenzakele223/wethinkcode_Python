@@ -1,6 +1,6 @@
 #Let's prompt a user to input a file name
 def main():
-    file_name = input("Enter a File Name: ")
+    file_name = input("Enter a File Name: ").strip().lower()
     print(fileExtension(file_name))
 
 def fileExtension(extension):
@@ -8,18 +8,16 @@ def fileExtension(extension):
     if ".gif" in extension:
       return "image/gif"
     elif ".jpg" in extension:
-      return "image/jp"
-    elif ".jpeg" in extension:
       return "image/jpeg"
     elif ".png" in extension:
       return "image/png"
     elif ".pdf" in extension:
       return "application/pdf"
     elif ".txt" in extension:
-      return "text/plan"
+      return "text/plain"
     elif ".zip" in extension:
       return "application/zip"
     else:
       return "application/octet-stream"
-    
+
 main()
