@@ -1,0 +1,1 @@
+This Weeek i was learning about Conditinals. The Conditinals are very difficult to understand but i enjoyed learning them. Now I am struggling to understand (if **name == "**main\_\_") but other than than I understood everything. My challegies this week was on the problem set one (meal time and math interpreter) but I am happy i manage to solve the🙂.
